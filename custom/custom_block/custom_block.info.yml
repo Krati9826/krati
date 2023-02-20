@@ -1,0 +1,5 @@
+name : My Block
+description: My First Custom Block  
+type: module
+package: Training_Module
+core_version_requirement: ^9 || ^10 

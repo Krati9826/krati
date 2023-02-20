@@ -1,0 +1,6 @@
+services:
+  tiffin.services:
+    class : Drupal\training\Services\TiffinWala
+    arguments: ['@messenger']
+  rikshaw.services:
+    class : Drupal\training\Services\RikshawWala

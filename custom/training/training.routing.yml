@@ -1,0 +1,8 @@
+training.training_route:
+  path: 'tiffin/home'
+  defaults: 
+    _form: 'Drupal\training\Form\TrainingForm'
+    _title: 'Tiffin Deliever'
+  requirements:
+    _permission: 'new_permission'
+    # _access: 'TRUE'

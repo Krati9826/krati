@@ -1,0 +1,5 @@
+name : Tiffin Deliver
+description: Deliever your tiffin at a time 
+type: module
+package: Training_Module
+core_version_requirement: ^9 || ^10 

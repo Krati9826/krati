@@ -1,0 +1,9 @@
+custom_block.custom_block_route:
+  path: 'tiffin/home'
+  defaults: 
+    _block: 'Drupal\custom_block\Plugin\Block/MyFirstCustomBlock'
+    _form: 'Drupal\training\Form\TrainingForm'
+    _title: 'Tiffin Deliever'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'

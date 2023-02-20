@@ -1,0 +1,7 @@
+training.training_route:
+  title: Form
+  route_name: training.training_route
+  parent: system.admin_config_development
+  description: 'Custom Form'
+  position: left
+  weight: 2
